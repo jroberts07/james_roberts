@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>James Roberts</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.scss.css') }}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="./static/images/av.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">James Roberts</a></h1>
+					<p>Software Engineer</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Skills</a></li>
+						<li><a href="#three">Experience</a></li>
+						<li><a href="#four">Projects</a></li>
+						<li><a href="#five">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://github.com/jroberts07" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/jroberts-7/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#five" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="./static/images/desk.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Welcome</h2>
+										<p>"Those who stand still go backwards."</p>
+									</header>
+									<p>
+										This is one of my favourite quotes and I believe it is especially relevant in the world of software engineering.
+										I have a keen interest in <a href="https://www.kaizen.com/what-is-kaizen.html">Kaizen</a> and especially some of the work done by Sir David Brailsford under the Pseudonym of "marginal gains".
+										I enjoy working in highly autonomous agile teams where the team has the power to lead it's direction and can really reap the rewards of marginal gains by incrementally improving it's different processes.
+										In terms of the tech itself you'll normally find me around Python micro-services running on serverless or in containers. AWS is my area of cloud expertise.
+										Away from work I enjoy a round of golf, quickly followed by a pint so I can forget the round of golf. Avid Reading FC supporter.
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Things I Can Do</h3>
+									<p>Here is a list of things I am currently interested in. Probably out of date from the point of writing</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Loves to code in Python, has worked on Java, JavaScript, Go, HTML etc.</li>
+										<li class="icon solid fa-signal">Agile processes, marginal gains, BDD and all that good stuff</li>
+										<li class="icon solid fa-cloud">AWS and Docker</li>
+										<li class="icon solid fa-handshake">Working closely with stakeholders and presenting work to wider teams</li>
+										<li class="icon solid fa-rss">Event driven architectures</li>
+										<li class="icon solid fa-book">Would love to get into blog writing. Coming Soon...</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Experience</h3>
+									<div class="features">
+										<article>
+											<a href="https://www.gousto.co.uk/" class="image"><img src="./static/images/gousto.png" alt="Gousto" /></a>
+											<div class="inner">
+												<h4>Gousto</h4>
+												<h5>2019-present</h5>
+												<p>Working as a Software Engineer. Specialising in serverless Python functions running on AWS. Responsible for the fulfilment of 100k+ weekly orders and growing.</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://www.tescomobile.com/" class="image"><img src="./static/images/tesco.jpeg" alt="Tesco Mobile" /></a>
+											<div class="inner">
+												<h4>Tesco Mobile</h4>
+												<h5>2018-2019</h5>
+												<p>Worked as a full stack developer in the DevOps team. Responsible for the order entry system serving 6 million customers and processing £600 million in annual revenue.</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://www.sheffield.ac.uk/" class="image"><img src="./static/images/shef.jpeg" alt="University of Sheffield" /></a>
+											<div class="inner">
+												<h4>University of Sheffield</h4>
+												<h5>2015-2018</h5>
+												<p>
+													Graduated with a First class Bachelor of Engineering degree in Software Development for Business.
+													Presented dissertation on using 360 video to analyse crime scenes at the NCA national conference.
+												</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Projects</h3>
+									<ul class="feature-icons">
+										<li>
+											<a href="https://github.com/jroberts07/fpl-stats-api" class="image"><img src="./static/images/fpl.jpeg" alt="FPL" /></a>
+											<h4>Live FPL tables</h4>
+											<p>This project combines a Python backend (using the Sanic framework) with a ReactJs frontend. It produces a live league table for mini-leagues in Fantasy Premier League.</p>
+										</li>
+									</ul>
+									</div>
+							</section>
+
+						<!-- Five -->
+							<section id="five">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>Please feel free to get in touch with me.</p>
+									<form method="post" action="/submit_form">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+
+						<div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; james.roberts. All rights reserved.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="./static/assets/js/jquery.min.js"></script>
+			<script src="./static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="./static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="./static/assets/js/browser.min.js"></script>
+			<script src="./static/assets/js/breakpoints.min.js"></script>
+			<script src="./static/assets/js/util.js"></script>
+			<script src="./static/assets/js/main.js"></script>
+
+	</body>
+</html>
