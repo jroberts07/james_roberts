@@ -1464,6 +1464,7 @@ ul.feature-icons {
     ul.feature-icons li h4, ul.feature-icons li p {
       text-align: center; }
     ul.feature-icons li .image, ul.feature-icons li img {
+      height: 200px;
       width: 100%; }
 
 /* Icons */
