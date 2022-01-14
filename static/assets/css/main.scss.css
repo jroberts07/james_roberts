@@ -1420,9 +1420,9 @@ ul.actions {
         ul.actions:not(.fixed) li button,
         ul.actions:not(.fixed) li .button {
           width: 100%; }
-          ul.actions:not(.fixed) li input.icon[type="submit"]:before,
-          ul.actions:not(.fixed) li input.icon[type="reset"]:before,
-          ul.actions:not(.fixed) li input.icon[type="button"]:before,
+          ul.actions:not(.fixed) li input[type="submit"].icon:before,
+          ul.actions:not(.fixed) li input[type="reset"].icon:before,
+          ul.actions:not(.fixed) li input[type="button"].icon:before,
           ul.actions:not(.fixed) li button.icon:before,
           ul.actions:not(.fixed) li .button.icon:before {
             margin-left: -0.5rem; } }
@@ -1558,74 +1558,74 @@ input[type="button"],
   input[type="button"]:active,
   .button:active {
     background-color: #8b8b8b; }
-  input.icon[type="submit"],
-  input.icon[type="reset"],
-  input.icon[type="button"],
+  input[type="submit"].icon,
+  input[type="reset"].icon,
+  input[type="button"].icon,
   .button.icon {
     padding-left: 1.35em; }
-    input.icon[type="submit"]:before,
-    input.icon[type="reset"]:before,
-    input.icon[type="button"]:before,
+    input[type="submit"].icon:before,
+    input[type="reset"].icon:before,
+    input[type="button"].icon:before,
     .button.icon:before {
       margin-right: 0.5em; }
-  input.fit[type="submit"],
-  input.fit[type="reset"],
-  input.fit[type="button"],
+  input[type="submit"].fit,
+  input[type="reset"].fit,
+  input[type="button"].fit,
   .button.fit {
     width: 100%; }
-  input.small[type="submit"],
-  input.small[type="reset"],
-  input.small[type="button"],
+  input[type="submit"].small,
+  input[type="reset"].small,
+  input[type="button"].small,
   .button.small {
     font-size: 0.8em; }
-  input.large[type="submit"],
-  input.large[type="reset"],
-  input.large[type="button"],
+  input[type="submit"].large,
+  input[type="reset"].large,
+  input[type="button"].large,
   .button.large {
     font-size: 1.35em; }
-  input.alt[type="submit"],
-  input.alt[type="reset"],
-  input.alt[type="button"],
+  input[type="submit"].alt,
+  input[type="reset"].alt,
+  input[type="button"].alt,
   .button.alt {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #e4e4e4;
     color: #777 !important; }
-    input.alt[type="submit"]:hover,
-    input.alt[type="reset"]:hover,
-    input.alt[type="button"]:hover,
+    input[type="submit"].alt:hover,
+    input[type="reset"].alt:hover,
+    input[type="button"].alt:hover,
     .button.alt:hover {
       background-color: #f4f4f4;
       color: #777 !important; }
-    input.alt[type="submit"]:active,
-    input.alt[type="reset"]:active,
-    input.alt[type="button"]:active,
+    input[type="submit"].alt:active,
+    input[type="reset"].alt:active,
+    input[type="button"].alt:active,
     .button.alt:active {
       background-color: #eaeaea; }
-    input.alt.icon[type="submit"]:before,
-    input.alt.icon[type="reset"]:before,
-    input.alt.icon[type="button"]:before,
+    input[type="submit"].alt.icon:before,
+    input[type="reset"].alt.icon:before,
+    input[type="button"].alt.icon:before,
     .button.alt.icon:before {
       color: #aaa; }
-  input.primary[type="submit"],
-  input.primary[type="reset"],
-  input.primary[type="button"],
+  input[type="submit"].primary,
+  input[type="reset"].primary,
+  input[type="button"].primary,
   .button.primary {
     background-color: #4484ce;
     color: #ffffff !important; }
-    input.primary[type="submit"]:hover,
-    input.primary[type="reset"]:hover,
-    input.primary[type="button"]:hover,
+    input[type="submit"].primary:hover,
+    input[type="reset"].primary:hover,
+    input[type="button"].primary:hover,
     .button.primary:hover {
       background-color: #5891d3; }
-    input.primary[type="submit"]:active,
-    input.primary[type="reset"]:active,
-    input.primary[type="button"]:active,
+    input[type="submit"].primary:active,
+    input[type="reset"].primary:active,
+    input[type="button"].primary:active,
     .button.primary:active {
       background-color: #3477c5; }
-  input.disabled[type="submit"], input[type="submit"]:disabled,
-  input.disabled[type="reset"],
+  input[type="submit"].disabled, input[type="submit"]:disabled,
+  input[type="reset"].disabled,
   input[type="reset"]:disabled,
-  input.disabled[type="button"],
+  input[type="button"].disabled,
   input[type="button"]:disabled,
   .button.disabled,
   .button:disabled {
